@@ -1,0 +1,9 @@
+Data written into filewrite
+second line
+third line
+fourth line
+fourth line
+fourth line
+fourth line
+fourth line
+fourth line
