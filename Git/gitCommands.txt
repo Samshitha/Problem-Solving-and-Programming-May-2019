@@ -1,0 +1,100 @@
+   19  cd Python Programming
+   20  cd 'Python Programming'
+   21  clear
+   22  cd ..
+   23  ls
+   24  cd 'Prog. and Prob. Solving'
+   25  clear
+   26  mkdir git
+   27  ls
+   28  cd git
+   29  pwd
+   30  ls
+   31  cd ..
+   32  ls
+   33  cd Worklog
+   34  lsa
+   35  ls
+   36  cd 'Day 14(17 May)'
+   37  cd.. 
+   38  cd ..
+   39  cd ..
+   40  cd ..
+   41  clear
+   42  cd
+   43  cd Desktop/
+   44  ls
+   45  mv Prog.\ and\ Prob.\ Solving/ ProgrammingAndProblemSolving
+   46  ls
+   47  mv Python\ Programming/ PythonProgramming
+   48  ls
+   49  ls
+   50  pwd
+   51  cd ProgrammingAndProblemSolving/
+   52  clear
+   53  ls
+   54  mv Program\ Syllabus/ ProgramSyllabus
+   55  cd ..
+   56  cd ProgrammingAndProblemSolving/
+   57  clear
+   58  ls
+   59  cd ProgramSyllabus/
+   60  ls
+   61  cd ..
+   62  clear
+   63  cd git
+   64  pwd
+   65  git --version
+   66  git --config
+   67  git --configlist
+   68  git --configure
+   69  clear
+   70  git config --list
+   71  git config user.name
+   72  git config --global user.name "Samshitha"
+   73  git config user.name
+   74  git config user.email
+   75  git config --global user.email samshitha.sam.11@gmail.com
+   76  git config user.email
+   77  pwd
+   78  NUL>file1.txt
+   79  touch file1.txt
+   80  ls
+   81  git init
+   82  git status
+   83  git add file1.txt 
+   84  git status
+   85  git commit -m "file1.txt is commited"
+   86  git status
+   87  echo "data in line 1" > file1.txt 
+   88  cat file1.txt
+   89  echo "data in line 2" >> file1.txt 
+   90  cat file1.txt
+   91  git status
+   92  git add file1.txt 
+   93  git status
+   94  git commit -m "file1.txt second commit" 
+   95  git status
+   96  git log
+   97  pws
+   98  pwd
+   99  touch file{2..10}.txt
+  100  ls
+  101  touch file{11..100}.txt
+  102  ls
+  103  rm file{11..100}.txt
+  104  ls
+  105  git status
+  106  git add file{2..10}.txt
+  107  git status
+  108  git reset HEAD file{2..10}.txt
+  109  git status
+  110  git add file{2..10}.txt
+  111  git status
+  112  git commit -m "committed 9 new files"
+  113  git status
+  114  git log
+  115  git clone https://github.com/Akash-Sinha/Gitam-Skill-Enhancement-May-2019/blob/master/PythonProgramming/NotebookTemplate/TEMPLATE.ipynb
+  116  git clone https://github.com/Akash-Sinha/Gitam-Skill-Enhancement-May-2019
+  117  history 100
+  118  history 100 > gitCommands.txt
